@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mrinal & Sanyam | Wedding Invitation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.9s ease;
+    }
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .mandala-bg {
+      background-color: #fff6e5;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><defs><radialGradient id='g' cx='50%' cy='50%' r='50%'><stop offset='0%' stop-color='%23ffd700'/><stop offset='100%' stop-color='%23b8860b'/></radialGradient></defs><g fill='none' stroke='url(%23g)' stroke-width='1.5' opacity='0.45'><circle cx='200' cy='200' r='180'/><circle cx='200' cy='200' r='150'/><circle cx='200' cy='200' r='120'/><circle cx='200' cy='200' r='90'/><circle cx='200' cy='200' r='60'/><g><path d='M200 20 L215 80 L200 140 L185 80 Z'/><path d='M200 380 L215 320 L200 260 L185 320 Z'/><path d='M20 200 L80 215 L140 200 L80 185 Z'/><path d='M380 200 L320 215 L260 200 L320 185 Z'/></g><g><path d='M200 40 C260 100 300 140 360 200 C300 260 260 300 200 360 C140 300 100 260 40 200 C100 140 140 100 200 40 Z'/></g></g></svg>");
+      background-repeat: repeat;
+      background-size: 420px 420px;
+    }
+    .royal-bg {
+      background: linear-gradient(135deg, #7a0c0c, #c9a24d);
+      color: white;
+    }
+    .cursive {
+      font-family: 'Great Vibes', cursive;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      background: #7a0c0c;
+      color: white;
+      border-radius: 999px;
+      font-size: 1rem;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Soft Shehnai Music -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_6e91b98d5a.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Section 1: Opening -->
+  <section class="min-h-screen flex items-center justify-center mandala-bg relative overflow-hidden px-4">
+    <div class="text-center fade-in bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
+      <h1 class="text-5xl md:text-6xl cursive mb-6">॥ Shree Ganeshaya Namah ॥</h1>
+      <p class="text-lg italic">Tap & scroll to open our wedding invitation</p>
+      <div class="mt-8 text-3xl animate-bounce">🪔</div>
+    </div>
+  </section>
+
+  <!-- Section 2: Welcome -->
+  <section class="min-h-screen flex items-center justify-center bg-white px-5">
+    <div class="text-center max-w-xl fade-in">
+      <h2 class="text-4xl cursive mb-6">With the blessings of our families 🙏</h2>
+      <p class="text-base leading-relaxed">
+        We invite you to celebrate love, laughter, and togetherness as two hearts unite in a sacred bond.
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 3: Couple -->
+  <section class="min-h-screen flex items-center justify-center mandala-bg relative overflow-hidden px-4">
+    <div class="text-center fade-in bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
+      <h2 class="text-xl mb-4">The Wedding Of</h2>
+      <h1 class="text-5xl cursive mb-2">Mrinal Sharma</h1>
+      <div class="text-2xl my-2">💛 & 💛</div>
+      <h1 class="text-5xl cursive">Sanyam Bali</h1>
+    </div>
+  </section>
+
+  <!-- Section 4: Events -->
+  <section class="min-h-screen flex items-center justify-center royal-bg px-6">
+    <div class="text-center fade-in bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
+      <h2 class="text-4xl cursive mb-8">Wedding Celebrations ✨</h2>
+      <div class="space-y-6 text-base">
+        <p>💍 <strong>Engagement</strong><br/>8 March 2026</p>
+        <p>👰🤵 <strong>Wedding</strong><br/>9 March 2026</p>
+        <p>📍 <strong>Venue</strong><br/>Royal Castle, Una</p>
+        <p>🎶 Dinner • Dance • Dhol</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Location -->
+  <section class="min-h-screen flex items-center justify-center bg-white px-6">
+    <div class="text-center fade-in bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
+      <h2 class="text-4xl cursive mb-6">Find Us Here 📍</h2>
+      <p class="mb-6">Royal Castle, Una</p>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Royal+Castle+Una" target="_blank">Open in Google Maps</a>
+    </div>
+  </section>
+
+  <!-- Section 6: Closing -->
+  <section class="min-h-screen flex items-center justify-center mandala-bg relative overflow-hidden px-6">
+    <div class="text-center fade-in bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
+      <h2 class="text-4xl cursive mb-6">Your presence is our greatest blessing 💖</h2>
+      <p class="text-base">Join us in Una as we begin our forever.</p>
+      <p class="mt-8 italic">With love,<br/>Mrinal & Sanyam</p>
+    </div>
+  </section>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
